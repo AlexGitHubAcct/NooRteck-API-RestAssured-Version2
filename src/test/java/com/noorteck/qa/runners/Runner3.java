@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 					features = "src/test/resources/hr",
 					glue = "com.noorteck.qa.steps",
-					tags = "@PostDepTest",
+					//tags = "@PostDepTest",
 							plugin = {"summary","pretty", "html:target/cucumber-reports.html",
 									"json:target/destinations/cucumber-reports.json",					
 									"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
